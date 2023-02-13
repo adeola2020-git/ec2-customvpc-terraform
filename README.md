@@ -1,4 +1,4 @@
-# Provision an Amazon EC2 instance in a custom VPC using Terraform
+# Provision an Amazon EC2 instance in a custom VPC using Terraform   .....to be completed soon!!!
 
 Project Description
 
