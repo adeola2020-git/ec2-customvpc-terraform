@@ -1,6 +1,6 @@
 # Testing Jenkins.....
 
-# Provision an Amazon EC2 instance in a custom VPC using Terraform   .....to be completed soon!!!
+# Provision an Amazon EC2 instance in a custom VPC using Terraform   
 
 Project Description
 
@@ -9,7 +9,7 @@ You have a cloud management team, and they are in charge of deploying. You deplo
 
 What is Terraform?
 
-Terraform is an infrastructure-as-code (IaC) tool through which you define both cloud and on-prem resources in human-readable configuration files that you can version, reuse and share across various cloud platforms as well as on-premises. 
+Terraform is an infrastructure-as-code (IaC) tool through which you define both cloud and on-prem resources in human-readable configuration files that you can version, reuse and share across various cloud platforms as well as on-premises. Terraform is an IaC tool for automating infrastructure deployment of cloud resources.
 Terraform allows you to quickly automate and deploy resources on-prem and in the cloud. In my first project, I provisioned an Amazon EC2 instance in a custom VPC manually via the AWS console. This was time consuming and when I deleted all the resources deployed in the project, I would have to start all over again. But, with Terraform, it is all about automation. By creating a Terraform a module with configuration files, we can create reproducible infrastructure. Even when the resources are deleted, they can be reproduced easily and quickly because the codes are reusable.
 
 Terraform code is stored in the .tf or .tfjson file extension and the syntax is written in Hashicorp Configuration Language.
